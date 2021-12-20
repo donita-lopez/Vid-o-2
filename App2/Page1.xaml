@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="App2.Page1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FFCF0E0E" Offset="1"/>
+                <GradientStop Color="#FF5D0606" Offset="0.625"/>
+                <GradientStop Color="#FF6E2929" Offset="0.648"/>
+                <GradientStop Color="#FF434604" Offset="0.689"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.FocusVisualPrimaryBrush>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FFEA4848" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.FocusVisualPrimaryBrush>
+
+    </Grid>
+</Page>
